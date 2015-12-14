@@ -48,9 +48,9 @@ if __name__ == '__main__':
             "orangecontrib.associate.widgets": ["icons/*.svg"],
             "orangecontrib.associate": ["*.pyx"],
         },
-        install_requires=[
-            'Orange',
-        ],
+        # install_requires=[
+        #    'Orange',
+        # ],
         entry_points=ENTRY_POINTS,
         namespace_packages=['orangecontrib'],
         ext_modules=[
